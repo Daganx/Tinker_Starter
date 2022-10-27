@@ -1,0 +1,47 @@
+#section1{
+    background-image: url('../images/about-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 128px;
+    width: 100%; 
+
+    div{
+        @include flex(space-between);
+        width: 100%;
+
+        div{
+            @include flex(space-around);
+            flex-direction: column;
+            width: 90%;
+        }
+    }
+
+    h2{
+        color: white;
+        padding: 64px 0px 32px;
+    }
+
+    p{
+        border-top: solid 1px white;
+        color: white;
+        padding: 32px 0px;
+        width: 60%;
+        text-align: center;
+    }
+
+    a{
+        color: white;
+        background-color: #3DC1CD;
+        border-radius: 32px;
+        padding: 16px 32px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    img{
+        background-color: #F6C45C;
+        border: solid 2px white;
+        border-radius: 55px;
+        padding: 24px;
+    }
+}
