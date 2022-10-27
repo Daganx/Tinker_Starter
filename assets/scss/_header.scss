@@ -1,0 +1,30 @@
+header{
+    background-image: url(/assets/images/banner_bg.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    height: 10vh;
+}
+
+ul{
+    display: flex;
+}
+
+// FIN NAV
+// BACKGROUND
+
+#top-background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 8rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    text-align: center;
+    color: white;
+}
