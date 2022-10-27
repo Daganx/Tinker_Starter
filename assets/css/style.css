@@ -49,6 +49,154 @@
   border: solid 2px white;
   border-radius: 55px;
   padding: 24px;
+=======
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url(/assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "robotobold";
+  src: url(/assets/fonts/Roboto-Bold.ttf);
+}
+header {
+  background-image: url(/assets/images/banner_bg.jpg);
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  height: 10vh;
+}
+
+ul {
+  display: flex;
+}
+
+#top-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 8rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  text-align: center;
+  color: white;
+}
+
+#gallery {
+  display: flex;
+  height: 570px;
+  color: black;
+}
+
+.gallerytext-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #51DFF0;
+  height: 570px;
+  width: 35%;
+  color: white;
+}
+.gallerytext-container a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding-right: 16rem;
+  font-family: "robotobold";
+}
+.gallerytext-container p {
+  border-top: 1px solid white;
+  padding-top: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: left;
+  font-size: 14px;
+}
+.gallerytext-container h2 {
+  margin-right: 10rem;
+  font-size: large;
+  font-family: "robotobold";
+}
+
+.showall {
+  color: gold;
+}
+
+.galleryimg-container {
+  height: 570px;
+  width: 65%;
+  background-color: white;
+  position: relative;
+}
+
+.galleryimg {
+  position: relative;
+}
+
+.galleryimg1 {
+  position: absolute;
+  height: 180px;
+  width: 300px;
+  left: 20px;
+  top: 20px;
+}
+
+.galleryimg2 {
+  position: absolute;
+  left: 320px;
+  top: 20px;
+  height: 180px;
+  width: 300px;
+}
+
+.galleryimg3 {
+  position: absolute;
+  height: 180px;
+  width: 300px;
+  top: 200px;
+  left: 20px;
+}
+
+.galleryimg4 {
+  position: absolute;
+  height: 180px;
+  width: 300px;
+  top: 200px;
+  left: 320px;
+}
+
+.galleryimg5 {
+  position: absolute;
+  height: 180px;
+  width: 300px;
+  top: 360px;
+  left: 20px;
+}
+
+.galleryimg6 {
+  position: absolute;
+  height: 180px;
+  width: 300px;
+  top: 360px;
+  left: 320px;
+>>>>>>> main
 }
 
 /*# sourceMappingURL=style.css.map */

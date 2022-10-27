@@ -1,0 +1,106 @@
+#gallery{
+    display: flex;
+    height: 570px;
+    color: black
+}
+
+// TEXT CONTAINER
+
+.gallerytext-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #51DFF0;
+    height: 570px;
+    width: 35%;
+    color: white;
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        padding-right:16rem;
+        font-family: "robotobold";
+    }
+
+    p{
+        border-top: 1px solid white;
+        padding-top: 1rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    h2{
+        margin-right: 10rem;
+        font-size: large;
+        font-family: "robotobold";
+    }
+}
+
+.showall{
+    color: gold;
+}
+
+// IMG CONTAINER
+
+.galleryimg-container{
+    height: 570px;
+    width: 65%;
+    background-color: white;
+    position: relative;
+}
+
+.galleryimg{
+    position:relative;
+
+}
+
+.galleryimg1{
+    position: absolute;
+    height:180px;
+    width: 300px;
+    left: 20px;
+    top: 20px;
+}
+
+.galleryimg2{
+    position: absolute;
+    left: 320px;
+    top: 20px;
+    height: 180px;
+    width: 300px;
+}
+
+.galleryimg3{
+    position: absolute;
+    height: 180px;
+    width: 300px;
+    top: 200px;
+    left: 20px;
+}
+
+.galleryimg4{
+    position: absolute;
+    height: 180px;
+    width: 300px;
+    top: 200px;
+    left: 320px;
+}
+
+.galleryimg5{
+    position: absolute;
+    height: 180px;
+    width: 300px;
+    top: 360px;
+    left: 20px;
+}
+
+.galleryimg6{
+    position: absolute;
+    height: 180px;
+    width: 300px;
+    top: 360px;
+    left: 320px;
+}
