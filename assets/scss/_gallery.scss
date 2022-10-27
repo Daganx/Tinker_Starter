@@ -103,4 +103,31 @@
     width: 300px;
     top: 360px;
     left: 320px;
+
 }
+article {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6c45c;
+    font-family: 'roboto';
+    
+    width: 100%;
+    height: 20rem;
+    .para {
+        font-size: 20px;
+       text-align: center;
+        background-color: white;
+        width: 35%;
+        height: 7rem ;
+        padding: 1rem;
+        color: #717171;
+    }
+    .css-dev {
+        color: white;
+        padding: 1rem;
+    }
+}
+
